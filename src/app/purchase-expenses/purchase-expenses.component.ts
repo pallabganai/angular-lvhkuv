@@ -5,8 +5,7 @@ import { Subscription } from 'rxjs';
 @Component({
   selector: 'app-purchase-expenses',
   templateUrl: './purchase-expenses.component.html',
-  styleUrls: ['./purchase-expenses.component.css'],
-  providers: [CashFlowService]
+  styleUrls: ['./purchase-expenses.component.css']
 })
 export class PurchaseExpensesComponent implements OnInit {
   public stampDuty = 5;
